@@ -1,0 +1,71 @@
+@media only screen and (max-width:1186px) {
+  .header-landding .right-side img:nth-child(3){
+    left: 150px;
+  }
+  .header-landding .right-side svg{
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width:853px) {
+  .main-container{
+    gap: 10px;
+  }
+  .new-course{
+    text-align: center !important;
+  }
+  .two-side {
+    flex-direction: column!important;
+  }
+  .two-side>div{
+    width: 100%!important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .new-course{
+    justify-content: start!important;
+    align-items: center!important;
+  }
+  .new-course>div{
+    justify-content: center!important;
+    align-items: center!important;
+  }
+  .bottoms-side{
+    min-height: 40vh!important;
+    padding-top: 0 !important;
+    flex-direction: column !important;
+    gap: 50px !important;
+  }
+  .road-map{
+    width: 50%;
+    transform: translateY(0)!important; 
+  }
+  .bottoms-side>svg{
+    transform: rotate(-45deg) !important;
+  }
+  .btn-hover{
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .css-log{
+    transform: translateX(30px);
+  }
+}
+
+@media only screen and (max-width:634px) {
+  .two-side>div>img{
+    width: 80%;
+  }
+  .header-landding .right-side span:first-child{
+    left: 0;
+    top: 30px;
+  }
+  .header-landding .right-side img:nth-child(3){
+    left: 50px;
+  }
+  .header-landding .right-side svg{
+    left: 30px;
+    bottom:30px ;
+  }
+}
